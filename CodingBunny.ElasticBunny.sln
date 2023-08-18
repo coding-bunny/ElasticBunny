@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingBunny.ElasticBunny", "CodingBunny.ElasticBunny\CodingBunny.ElasticBunny.csproj", "{A2791D61-392F-4F14-8941-5D49E33B6F81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingBunny.ElasticBunny.Tests", "CodingBunny.ElasticBunny.Tests\CodingBunny.ElasticBunny.Tests.csproj", "{AFD6FC1E-4B24-4DEF-8632-1D17BA33BCAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2791D61-392F-4F14-8941-5D49E33B6F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2791D61-392F-4F14-8941-5D49E33B6F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2791D61-392F-4F14-8941-5D49E33B6F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2791D61-392F-4F14-8941-5D49E33B6F81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD6FC1E-4B24-4DEF-8632-1D17BA33BCAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD6FC1E-4B24-4DEF-8632-1D17BA33BCAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD6FC1E-4B24-4DEF-8632-1D17BA33BCAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD6FC1E-4B24-4DEF-8632-1D17BA33BCAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
