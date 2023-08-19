@@ -23,4 +23,16 @@ public abstract class Index
     /// </summary>
     [JsonIgnore]
     public IndexName Name { get; }
+
+    /// <summary>
+    /// Gets or sets the <see cref="IndexAliases"/> of the ElasticSearch Index.
+    /// </summary>
+    [JsonPropertyName(FieldNames.Aliases)]
+    public IndexAliases Aliases { get; set; } = new();
+
+    [JsonPropertyName(FieldNames.Mappings)]
+    public IndexMapping Mappings { get; set; }
+
+    [JsonPropertyName(FieldNames.Settings)]
+    public IndexSettings Settings { get; set; }
 }
